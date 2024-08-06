@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Widget.BtcRate.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.BtcRate.AppWidgetContainer">
+
+    <ImageView
+        android:id="@+id/btc_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_centerHorizontal="true"
+        android:importantForAccessibility="no"
+        android:src="@drawable/bitcoin" />
+
+    <TextView
+        android:id="@+id/btc_price_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btc_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:textColor="?android:attr/textColorPrimary"
+        android:contentDescription="@string/price_text"
+        android:text="@string/price_text"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:ellipsize="none"/>
+
+    <TextView
+        android:id="@+id/btc_price_direction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btc_price_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/arrow_up"
+        android:contentDescription="@string/direction_text"
+        android:text="@string/direction_text"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:ellipsize="none"/>
+</RelativeLayout>

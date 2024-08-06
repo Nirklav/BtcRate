@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BtcRate</string>
+    <string name="price_text">11.11</string>
+    <string name="direction_text">￪</string>
+    <string name="add_widget">Btc rate widget</string>
+    <string name="app_widget_description">Widget shows bts rate</string>
+</resources>
