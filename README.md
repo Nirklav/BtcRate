@@ -1,6 +1,6 @@
 # Description
 
-The application just shows the current BTC rate.
+The Android application that just shows the current BTC rate.
 It contains only a widget without any main screen, settings, or ads.
 The widget updates every 10 minutes.
 Currently, it is taking data from Binance.com.
